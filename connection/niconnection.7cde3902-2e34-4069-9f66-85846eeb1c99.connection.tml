@@ -8,6 +8,8 @@ connection:
     value: thoughtspot-dev
   - key: user
     value: spotapp
+  - key: password
+    value: "P2wd_4321"
   - key: role
     value: SYSADMIN
   - key: warehouse
