@@ -1,0 +1,128 @@
+guid: fe1e538f-8579-4b5d-abfc-37f6da5cfdf5
+liveboard:
+  name: Hubspot liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Amount by Dealtype
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: 65f0b752-b499-4678-b119-02393a77b757
+      search_query: "[Amount] [Dealtype]"
+      answer_columns:
+      - name: Dealtype
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Dealtype
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Dealtype
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Dealtype
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Dealtype\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b05334dd-e5fd-41f5-8200-5f7bb07facbd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"a14f7301-7706-4cb1-9ed9-6a1200436b38\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Dealtype\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 05d84770-4e7e-4c32-88cc-c345c0f49cbc
+  - id: Viz_2
+    answer:
+      name: Total Amount by Firstname
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: 65f0b752-b499-4678-b119-02393a77b757
+      search_query: "[Amount] [Jobtitle]"
+      answer_columns:
+      - name: Jobtitle
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Jobtitle
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Jobtitle
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Jobtitle
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"37035236-5a63-46fd-aa61-48ecf9c71891\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b05334dd-e5fd-41f5-8200-5f7bb07facbd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"a14f7301-7706-4cb1-9ed9-6a1200436b38\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"37035236-5a63-46fd-aa61-48ecf9c71891\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 57fbd014-7dce-4bfe-8106-74c5533d990b
+  - id: Viz_3
+    answer:
+      name: Total Amount by Country
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: 65f0b752-b499-4678-b119-02393a77b757
+      search_query: "[Amount] [Country] sort by [Amount] descending"
+      answer_columns:
+      - name: Country
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Country
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Country
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Country
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Country\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1a0919ef-d52e-42b6-bafe-e311c083d421\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"0df4df9f-abab-459d-a8e1-1d061a9ef3a4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Country\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#8C62F5\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a735400c-6243-4fa9-8c32-175d10950070
+  layout:
+    tabs:
+    - name: Tab 1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_2
+        x: 6
+        "y": 0
+        height: 8
+        width: 6
+      id: 3f32f0ff-8237-482c-84ed-99d0c168f0a5
+    - name: Tab 2
+      description: ""
+      tiles:
+      - visualization_id: Viz_3
+        x: 0
+        "y": 0
+        height: 8
+        width: 12
+      id: 4364be81-f3fb-440c-989f-9fff6d4563b7
