@@ -1,0 +1,51 @@
+monitor_alert:
+- guid: d2ccfc61-e983-464c-8528-f140e79f28ec
+  name: Alert on Total Amount Monthly
+  frequency_spec:
+    cron:
+      second: "0"
+      minute: "0"
+      hour: "9"
+      day_of_month: "1"
+      month: '*'
+      day_of_week: '*'
+    time_zone: UTC
+    start_time: 1716422200
+    end_time: 0
+    frequency_granularity: MONTHLY
+  creator:
+    username: nicolas.rentz@thoughtspot.com
+    user_email: nicolas.rentz@thoughtspot.com
+  metric_id:
+    pinboard_viz_id:
+      pinboard_id: 9d82edd0-8164-43eb-b926-3b0946682f4f
+      viz_id: 237cb190-3bc3-4281-85ea-0b3d543e2165
+  subscribed_user:
+  - username: nicolas.rentz@thoughtspot.com
+    user_email: nicolas.rentz@thoughtspot.com
+  customMessage: ""
+- guid: f4dcd6c0-dd08-44ab-9055-6f019d2032ae
+  name: Alert on Projected amount
+  frequency_spec:
+    cron:
+      second: "0"
+      minute: "0"
+      hour: "9"
+      day_of_month: "1"
+      month: '*'
+      day_of_week: '*'
+    time_zone: UTC
+    start_time: 1716422200
+    end_time: 0
+    frequency_granularity: MONTHLY
+  creator:
+    username: nicolas.rentz@thoughtspot.com
+    user_email: nicolas.rentz@thoughtspot.com
+  metric_id:
+    pinboard_viz_id:
+      pinboard_id: 9d82edd0-8164-43eb-b926-3b0946682f4f
+      viz_id: 97cfa4b0-4c2a-471c-b030-a5e2904b745c
+  subscribed_user:
+  - username: nicolas.rentz@thoughtspot.com
+    user_email: nicolas.rentz@thoughtspot.com
+  customMessage: ""
